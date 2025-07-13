@@ -27,5 +27,17 @@ This Lambda-based solution looks through all of the account's snapshots, checks 
 - **Amazon CloudWatch (for logs)**
 - **IAM (with permissions for EC2 and Snapshot deletion)**
 
+# Screenshots
+
+**Terminated instances**
+
+<img width="1908" height="995" alt="Screenshot 2025-07-06 113536" src="https://github.com/user-attachments/assets/92320911-2bc6-410b-a967-c2ba5790d8c6" />
+
+ **Lambda output** - Deleted all the snapshots that are not attached to a volumes
+
+<img width="1915" height="965" alt="Screenshot 2025-07-06 113517" src="https://github.com/user-attachments/assets/eb3babf5-eb24-4c9a-921f-b2071e760f4a" />
+
+
+
 
 
